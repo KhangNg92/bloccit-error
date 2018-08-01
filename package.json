@@ -4,8 +4,14 @@
   "description": "A Reddit-like application for users to discuss and share content",
   "main": "\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[B\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C:(src/server.js)",
   "scripts": {
-    "test": "export NODE_ENV=test && jasmine"
+    "test": "set NODE_ENV=test && jasmine",
+    "start": "node src/server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jasmine": "^3.0.0",
+    "request": "^2.83.0"
+  }
 }
